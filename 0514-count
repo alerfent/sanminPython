@@ -1,0 +1,8 @@
+number = list()
+
+while len(number)>6:
+  num= int(input("請輸入1~49之間的數字:"))
+  if num.count(num) ==0:
+    num.append(num)
+
+print(number)
